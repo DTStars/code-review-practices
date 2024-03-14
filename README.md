@@ -1,6 +1,6 @@
 # 星喆产品研发团队代码评审工程实践文档
 
-> 声明：本文档是基于 [Google Code Review 指南](https://google.github.io/eng-practices/) 以及[袋鼠云数栈前端团队](https://github.com/DTStack/code-review-practices) 的基础上，由星喆产品研发团队修改的代码评审工程实践文档，欢迎大家提出宝贵意见。
+> 声明：本文档是基于 [Google Code Review 指南](https://google.github.io/eng-practices/) 以及[袋鼠云星喆前端团队](https://github.com/DTStack/code-review-practices) 的基础上，由星喆产品研发团队修改的代码评审工程实践文档，欢迎大家提出宝贵意见。
 
 ## 代码评审指南介绍
 
@@ -30,7 +30,7 @@
 
 * **代码评审者提出的都是一些编码风格和代码规范的东西？**
   
-   编码规范应该交给工具去做，代码需遵循数栈代码风格指南
+   编码规范应该交给工具去做，代码需遵循星喆代码风格指南
 
 * **为什么要鼓励为主而不是责罚并举？**
   
