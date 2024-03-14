@@ -24,7 +24,7 @@
 
 ## 增加评审模版
 
-评审模版应包含简介，主要变更，相关Issue/PRD
+评审模版应包含简介，主要变更，相关 Issue/PRD
 
 ## 利用 Gitlab 做代码评审
 
@@ -40,7 +40,7 @@
 - **MR**描述清楚业务功能，附上原型，主要变更，问题链接
 - 充分自测或核心模块经过单元测试
 - 代码经过 Gitlab CI 的静态检查
-- 提交范围尽可能小和完整；不要一次性提交大量不相关的功能代码，把评审时间控制在20min以内
+- 提交范围尽可能小和完整；不要一次性提交大量不相关的功能代码，把评审时间控制在 20min 以内
 - 按照 Git Commit 提交规范进行提交
 - 不阻塞他人的工作，尽快响应他人的代码评审请求
 - 如果某个**MR**紧急，可以告知 Reviewers
@@ -49,7 +49,7 @@
 
 - 提交合并请求**MR**
 - 触发代码评审提醒和 CI pipeline 执行
-- 代码评审者执行评审过程，代码评审者可以提交评论，其他人也可以参与针对问题进行持续跟进，一个**MR**手动设置多人参与CR
+- 代码评审者执行评审过程，代码评审者可以提交评论，其他人也可以参与针对问题进行持续跟进，一个**MR**手动设置多人参与 CR
 - 代码评审开发者收到评审意见，修改代码，回复评论，关闭问题
 - 代码评审者确认问题是否修复，允许合并
 
@@ -94,14 +94,28 @@
 
 ### 开发者需遵循的工程规范
 
-- Git Workflow：[Git Workflow](https://dtstack.yuque.com/rd-center/sm6war/vzg2xd)
-- Git Commit: [Git Commit](https://dtstack.yuque.com/rd-center/sm6war/dnt36o)
-- SemVer：[SemVer](https://dtstack.yuque.com/rd-center/sm6war/cmdl2z)
-- CSS 编码规范(SASS/BEM)：[SASS/BEM](https://dtstack.yuque.com/rd-center/sm6war/clgpb7)
-- BEM 使用帮助：[BEM 使用帮助](https://dtstack.yuque.com/rd-center/sm6war/wb76lx)
-- Code Style Guide(https://github.com/DTStack/Code-Style-Guide)
+- Git Workflow：[Git Workflow](https://dtstars.yuque.com/staff-bg39ph/ig1yym/aiozkg9lnacam6ei)
+- 约定式提交（Git Commit）: [Git Commit](https://www.conventionalcommits.org/zh-hans/v1.0.0/)
+- 语义化版本（SemVer）：[SemVer](https://dtstack.yuque.com/rd-center/sm6war/cmdl2z)
+- [Java 开发手册](https://github.com/alibaba/p3c/tree/master)
+- CSS 编码规范(SASS/BEM) 指南：[SASS/BEM](https://getbem.com/introduction/)
+- [Javascript Code Style Guide](<https://github.com/DTStack/Code-Style-Guide>)
 
 ### 开发者需要知道的CI/CD流程
+
+#### Pipeline for Java
+
+- CheckStyle
+- Spotless
+- Unit Testing
+  - 适当补充单元测试
+- Integration Testing
+  - 看情况是否需要
+- Build
+  - Pre-Compile
+- Deploy
+
+#### Pipeline for Node.js
 
 - Static Checking
   - ESlint
@@ -109,7 +123,10 @@
   - MDLint
   - Prettier
   - Stylelint
-  - Unit Testing
+- Unit Testing
+  - 适当补充单元测试
+- Integration Testing
+  - 看情况是否需要
 - Build
   - Lock Yarn
   - Unify yarnrc
@@ -119,6 +136,8 @@
 
   为了提升工作效率，我们可以在我们的编辑器工具中安装相关的各种插件，提升整个评审效率，由于我们大部分同学都在使用 VSCode，这里我就列举部分插件以作参考：
 
+- maven-checkstyle-plugin 代码风格检查
+- spotless 代码格式化
 - ESLint 代码静态检测, 解决基本的代码风格不统一的问题，避免一些低级 bug。当然 ESLint 最好集成到开发构建环节中去
 - GitLens 非常好的 git 可视化管理插件
 - Gitlab MR 协助快速创建**MR**请求

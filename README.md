@@ -1,4 +1,6 @@
-# 袋鼠云数栈前端团队代码评审工程实践文档
+# 星喆产品研发团队代码评审工程实践文档
+
+> 声明：本文档是基于 [Google Code Review 指南](https://google.github.io/eng-practices/) 以及[袋鼠云数栈前端团队](https://github.com/DTStack/code-review-practices) 的基础上，由星喆产品研发团队修改的代码评审工程实践文档，欢迎大家提出宝贵意见。
 
 ## 代码评审指南介绍
 
@@ -41,12 +43,3 @@
 * **周末出现线上紧急 bug 要遵循代码评审流程吗？**
   
   可以不进行代码评审，以快速修复 bug 为主，或者采取 onCall 的方式让维护者尽快评审
-
-## 路线图
-
-* [x] [评审模版](https://github.com/DTStack/devops/blob/main/.github/merge_request_template.md)
-* [x] **代码评审指南 2.0**达成共识
-* [x] **代码评审指南 2.0**宣讲&落地
-* [x] 整理输出团队自身的 Checklist
-* [x] [代码风格指南落地](https://github.com/DTStack/Code-Style-Guide)
-* [x] [输出ko-lint-config & eslint-plugin-dt-react package](https://github.com/DTStack/ko/tree/master/packages/ko-lint-config)
