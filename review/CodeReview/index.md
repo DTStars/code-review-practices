@@ -96,7 +96,7 @@
 
 - Git Workflow：[Git Workflow](https://dtstars.yuque.com/staff-bg39ph/ig1yym/aiozkg9lnacam6ei)
 - 约定式提交（Git Commit）: [Git Commit](https://www.conventionalcommits.org/zh-hans/v1.0.0/)
-- 语义化版本（SemVer）：[SemVer](https://dtstack.yuque.com/rd-center/sm6war/cmdl2z)
+- 语义化版本（SemVer）：[SemVer](https://semver.org/lang/zh-CN/)
 - [Java 开发手册](https://github.com/alibaba/p3c/tree/master)
 - CSS 编码规范(SASS/BEM) 指南：[SASS/BEM](https://getbem.com/introduction/)
 - [Javascript Code Style Guide](<https://github.com/DTStack/Code-Style-Guide>)
